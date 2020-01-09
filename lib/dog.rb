@@ -10,6 +10,7 @@
   @@all<< self 
   @save = save
   end
+  
   def self.all
   @@all=[]
   end 
