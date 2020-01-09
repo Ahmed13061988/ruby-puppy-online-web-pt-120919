@@ -8,13 +8,15 @@ def initialize(name)
   @@all << self 
 end
 
+def self.print_all
+  print_all.each do |name|
+    puts all << name  
+  end
+
 def self.all
   @@all = []
 end 
-def self.print_all
-  print_all.each do |a|
-    puts a 
-  end 
+ 
 end 
   
 
