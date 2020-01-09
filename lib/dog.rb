@@ -1,5 +1,5 @@
 class Dog 
-@@all = []  
+ @@all = []  
 
   attr_accessor :name 
   
@@ -18,8 +18,6 @@ class Dog
     puts a 
   end
 end 
-
-
 
 def save 
  @@all << self 
