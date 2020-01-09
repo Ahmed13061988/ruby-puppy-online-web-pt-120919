@@ -15,8 +15,8 @@
   end
 
   def self.print_all
-  print_all.each do |a|
-    puts a 
+  print_all.each do |name|
+    puts name 
   end
 end 
 
