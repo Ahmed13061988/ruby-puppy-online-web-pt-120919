@@ -9,14 +9,17 @@ def initialize(name)
 end
 
 def self.print_all
-  print_all.each do |name|
-    puts  
+  print_all.each do |a|
+    puts a 
   end
 end 
 
 def self.all
   @@all = []
 end 
+
+def save 
+  
  
   
 
