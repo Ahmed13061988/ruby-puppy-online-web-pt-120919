@@ -1,4 +1,4 @@
- ```class Dog
+class Dog
    
    @@all=[]  
 
@@ -29,5 +29,5 @@ def save
  def self.clear_all
    @@all.clear 
  end 
-end ```
+end 
 
