@@ -10,14 +10,14 @@ end
 
 def self.print_all
   print_all.each do |name|
-    puts all << name  
+    puts  
   end
+end 
 
 def self.all
   @@all = []
 end 
  
-end 
   
 
 end 
