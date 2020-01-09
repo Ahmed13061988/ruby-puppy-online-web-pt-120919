@@ -5,15 +5,15 @@ class Dog
   
   def self.all
   @@all 
-end 
+  end 
 
-def initialize(name) 
+  def initialize(name) 
   @name = name 
   @@all<< self 
   @save = save
-end
+  end
 
-def self.print_all
+  def self.print_all
   print_all.each do |a|
     puts a 
   end
