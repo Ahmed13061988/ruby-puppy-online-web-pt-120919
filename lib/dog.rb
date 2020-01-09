@@ -25,6 +25,7 @@ def save
  
  def self.clear_all
    @@all.clear 
+ end 
  
   
  
