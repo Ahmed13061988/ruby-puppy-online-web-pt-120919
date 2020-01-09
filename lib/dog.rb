@@ -4,7 +4,7 @@ class Dog
   attr_accessor :name 
   
   def self.all
-  @@all 
+  @@all = []
   end 
 
   def initialize(name) 
